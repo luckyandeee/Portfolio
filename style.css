@@ -38,7 +38,7 @@ li{
        justify-content: center;
         height: 90vh;
   } 
-  .ProfileImage img{
+  img{
     width: fit-content;
   }
  
@@ -52,8 +52,7 @@ li{
     height: 90vh;
     justify-content: center;
   }   
-  .ProfileImage img{
-    margin-left: 150px;
+  img{
     width: 50%;
   }
   ul li.card .content{
