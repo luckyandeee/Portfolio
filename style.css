@@ -30,27 +30,27 @@ li{
 
 
 @media screen and (max-width: 600px) {
-    .flex-container {
+    /* .flex-container {
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
         align-items: center;
         height: 90vh;
-  }
+  } */
   .ProfileImage img{
     width: 50%;
   }
  
   }
 @media screen and (min-width:600px) {
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     height: 90vh;
     justify-content: center;
-  }  
+  }   */
   .ProfileImage img{
     margin-left: 150px;
     width: 50%;
