@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lora:ital,wght@1,700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
-
+*{
+  margin:0px;
+}
 h1,h3{
   font-family: 'Alkatra', cursive;
 }
@@ -36,23 +38,22 @@ li{
         flex-wrap: wrap;
         align-items: center;
        justify-content: center;
-        height: 90vh;
+        height: 80vh;
   } 
 }
- 
-  }
+
 @media screen and (min-width:600px) {
  .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
     justify-content: center;
   }   
   ul li.card .content{
     grid-area: content;
-    width: 605px;
+    width: 500px;
   }
   p{
   margin-left: 150px;
@@ -62,6 +63,7 @@ body{
     background-image: url(blue-toned-collection-paper-sheets-with-copy-space-min.jpg);
     background-repeat: no-repeat;
     scrollbar-width: none;
+    background-size: cover;
   }
   header{
     display: flex;
@@ -86,7 +88,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%%;
+    width: 100%;
   }
  
   .navbar{
