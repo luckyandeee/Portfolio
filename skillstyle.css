@@ -1,9 +1,5 @@
 @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
-.skills{
-  padding: 10px;
-  width: auto;
-  height: auto;
-}
+
 body {
  
   place-items: center;
@@ -17,12 +13,12 @@ ul{
   list-style: none;
   perspective: 1000px;
   display: grid;
-  row-gap: 0.1rem;
+  row-gap: 0.4rem;
 }
 ul li.card{
   position: relative;
-  padding-block: 0.3rem;
-  padding-inline: 0.2rem;
+  padding-block: 0.1rem;
+  padding-inline: 0.6rem;
   background-color: var(--bg-color);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent);
   transform-style: preserve-3d;
@@ -31,7 +27,7 @@ ul li.card{
   display: grid;
   grid-template: 'icon' 'title' 'content';
   row-gap: 0.1rem;
-  column-gap: 0.1rem;
+  column-gap: 0.8rem;
 }
 ul li.card::before, ul li.card::after {
   --side-rotate: 30deg;
@@ -64,10 +60,7 @@ ul li.card .title{
   text-align: center;
   
 }
-ul li.card .content{
-  grid-area: content;
-  
-}
+
 
 @media (min-width: 600px){
   ul li.card {

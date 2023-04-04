@@ -39,6 +39,12 @@ li{
        justify-content: center;
         height: 90vh;
   } 
+  .skills{
+    padding: 10px;
+    width: 80vw;
+    height: 90vh;
+    
+  }
 }
 
 @media screen and (min-width:600px) {
@@ -53,6 +59,12 @@ li{
   ul li.card .content{
     grid-area: content;
     width: 500px;
+  }
+  .skills{
+    padding: 10px;
+    width: 100vw;
+    
+    
   }
   p{
   margin-left: 150px;
