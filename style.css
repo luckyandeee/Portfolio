@@ -38,9 +38,7 @@ li{
        justify-content: center;
         height: 90vh;
   } 
-  img{
-    width: fit-content;
-  }
+}
  
   }
 @media screen and (min-width:600px) {
@@ -52,16 +50,12 @@ li{
     height: 90vh;
     justify-content: center;
   }   
-  img{
-    width: 50%;
-  }
   ul li.card .content{
     grid-area: content;
     width: 605px;
   }
   p{
   margin-left: 150px;
-  
 }
 }
 body{
@@ -93,12 +87,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-  }
-  .ProfileImage{
-    justify-content: center;
-    align-items: center;
-    width: 50%;    
+    width: 100%%;
   }
  
   .navbar{
