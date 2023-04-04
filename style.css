@@ -39,7 +39,7 @@ li{
         height: 90vh;
   } 
   .ProfileImage img{
-    width: 50%;
+    width: fit-content;
   }
  
   }
