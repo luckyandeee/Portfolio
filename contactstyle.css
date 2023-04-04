@@ -1,0 +1,37 @@
+.contact a{
+    text-decoration: none;
+    color:rgb(16, 12, 46);
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;    
+}
+.contact a:hover{
+    color: darkorange;
+    text-shadow: 1.5px 0px whitesmoke;
+    /* text-transform: uppercase; */
+    /* font-size: 22px */
+}
+.contact{
+    margin-left: 25px;
+   
+}
+@media screen and (max-width: 600px) {
+    .con {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+  }
+  }
+@media screen and (min-width:600px) {
+.con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+  }  
+}
