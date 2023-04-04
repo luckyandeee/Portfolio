@@ -45,6 +45,10 @@ li{
     height: 90vh;
     
   }
+  p{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
 }
 
 @media screen and (min-width:600px) {
@@ -67,7 +71,8 @@ li{
     
   }
   p{
-  margin-left: 150px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 }
 body{
