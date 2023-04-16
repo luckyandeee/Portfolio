@@ -5,6 +5,12 @@ body {
   place-items: center;
  
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 ul{
   width: min(100%, 45rem);
   overflow: hidden;
