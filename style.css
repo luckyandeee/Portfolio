@@ -95,9 +95,12 @@ body{
     text-align: center;
     font-family: 'Playfair Display', serif;
     letter-spacing: 2.5px;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
     
   }
-  
   .AboutMe{
     display: flex; 
     flex-wrap: wrap;
